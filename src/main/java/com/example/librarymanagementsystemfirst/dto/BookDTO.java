@@ -12,5 +12,5 @@ public class BookDTO {
     private String bookType; // discriminator value
     private String genre; // this is for Novels
     private String subject; // for subject
-    private String edition;
+    private Integer edition;
 }
